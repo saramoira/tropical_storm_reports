@@ -11,7 +11,7 @@ for my $in (@in) {
   open IN, '<', "output/$in" || next;
   open OUT, '>', "clean_output/$in" || die "can't open file output/$in";
   while(<IN>) { 						# reads input file line by line
-  	$. == 6 and print OUT "|";
+  	$. == 6 and print OUT "|";			# inserts a vertical bar at line 6
   	$. == 7 and print OUT "|";			# inserts a vertical bar at line 7
     s/FORECAST POSITIONS AND MAX WINDS|\$\$/|/;
     s/\n|NNNN/ /g;
