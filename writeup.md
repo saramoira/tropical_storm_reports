@@ -19,7 +19,7 @@ I preprocessed my dataset using perl and SpaCy with a custom stopword list. I th
 
 ## Outcome
 
-* [LDA topic model using`CountVectorizer()` and 4 topics](https://htmlpreview.github.io/?https://github.com/saramoira/tropical_storm_reports/blob/main/tfidf_lda.html)
+* [LDA topic model using`CountVectorizer()` and 4 topics](https://htmlpreview.github.io/?https://github.com/saramoira/tropical_storm_reports/blob/main/lda_spacy_vis_4.html)
 
 ## Algorithms/Tools
 This project used perl and SpaCy for initial preprocessing, pandas and geopandas for data cleaning and selection, as well as multiple tools from sklearn for vetorization, metric evaluations, and model selection. Matplotlib, cartopy, and pyLDAvis were used for visualization.
