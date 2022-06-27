@@ -43,16 +43,16 @@ var LDAvis = function(to_select, data_or_file_name, color1, color2) {
 
     // Set global margins used for everything
     var margin = {
-            top: 30,
-            right: 30,
-            bottom: 70,
-            left: 30
+            top: 10,
+            right: 10,
+            bottom: 20,
+            left: 10
         },
 
-        mdswidth = 530,
-        mdsheight = 530,
-        barwidth = 530,
-        barheight = 530,
+        mdswidth = 400,
+        mdsheight = 400,
+        barwidth = 400,
+        barheight = 400,
         termwidth = 90, // width to add between two panels to display terms
         mdsarea = mdsheight * mdswidth;
     // controls how big the maximum circle can be
